@@ -1,0 +1,92 @@
+
+/* Basic Resets */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    grid-column: 1 / span 3;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    grid-column: 4 / span 9;
+}
+
+.secondary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / -1;
+    margin-top: 10px;
+}
+
+.search-bar input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.promo-video video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.brief-info, .student-portfolio, .general-info, .specific-student-work {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .logo, nav {
+        text-align: center;
+    }
+
+    nav ul {
+        grid-column: 1 / -1;
+        justify-content: center;
+    }
+}
