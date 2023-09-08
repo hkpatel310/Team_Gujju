@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/grid.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Website Logo">
+        <div class="grid-con">
+            <div class="logo l-col-span-3">
+                <img src="logo.png" alt="Website Logo">
+            </div>
+            <nav class="l-col-span-9">
+                <ul>
+                    <li><a href="#">Client Project</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
+        <div class="secondary-header l-col-span-12">
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </nav>
-        <div class="secondary-header">
-            <ul>
-                <li><a href="#">Link A</a></li>
-                <li><a href="#">Link B</a></li>
-                <li><a href="#">Link C</a></li>
+                <li><a href="#">Why choose fanshawe</a></li>
+                <li><a href="#">What we offer</a></li>
+                <li><a href="#">Apply to fanshawe</a></li>
+                <li><a href="#">Events</a></li>
             </ul>
             <div class="search-bar">
                 <input type="search" placeholder="Search...">
@@ -44,28 +49,91 @@
         </section>
         <section class="brief-info">
             <h2>Brief Information About the Program</h2>
-            <div></div>
+            <p class="box">hello</p>
         </section>
-        <section class="student-portfolio">
-            <h2>Student Portfolio</h2>
+        <h2>Student Portfolio</h2>
+        <section class="student-portfolio grid-con">
+            <div class="box l-col-span-6 large-box">Portfolio 1</div>
+            <div class="box l-col-span-6">Portfolio 2</div>
+            <div class="box l-col-span-6">Portfolio 3</div>
         </section>
+
         <section class="general-info">
             <h2>General Information</h2>
+            <div>
+                <p class="box">hello</p>
+            </div>
         </section>
-        <section class="specific-student-work">
-            <h2>Specific Student Work</h2>
+        <h2>Specific Student Work</h2>
+        <section class="specific-student-work grid-con">
+            <div class="box l-col-span-6 ">Portfolio 1</div>
+            <div class="box l-col-span-6">Portfolio 2</div>
+            <div class="box l-col-span-6 large-box">Portfolio 3</div>
         </section>
+
+
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-section">
-            <p>Footer Section 1</p>
+    <section class="secondary-footer ">
+        <div class="grid-con">
+            <div class="l-col-span-4">
+                <h3>Apply to seneca</h3>
+                <p>Canadian Applicants</p>
+                <p>International Applicants</p>
+                <p>Part-time Studies Applicants</p>
+            </div>
+            <div class="l-col-span-4">
+                <h3>About seneca</h3>
+                <p>Corporate Training</p>
+                <p>Careers at Seneca </p>
+                <p>Program Advisory Committees Media</p>
+            </div>
+            <div class="l-col-span-4">
+                <h3>About seneca</h3>
+                <p>Corporate Training</p>
+                <p>Careers at Seneca </p>
+                <p>Program Advisory Committees Media</p>
+            </div>
         </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <div class="footer-section">
+            <img src="logo.png" alt="Website Logo">
+        </div>
+      
         <div class="footer-section">
             <p>Footer Section 2</p>
+        </div> -->
+    <footer id="footer-hero">
+        <div class="grid-con">
+            <div class="grid-con">
+                <img class="col-span-3 m-col-span-4 l-col-span-4" src="./image/Patel_harsh_Logo_color.svg" alt="logo">
+            </div>
+            <div id="footer-nav" class="col-span-full m-col-span-6 l-col-span-6">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="col-span-4 m-col-span-22 l-col-span-2 media">
+                <img src="image/facebook.ico" alt="facebook">
+                <img src="image/instagram.png" alt="instagram">
+                <img src="image/linkedin.png" alt="linkedin">
+            </div>
+
+        </div>
+        <div class="grid-con">
+            <div id="footer-privacy" class="col-span-full m-col-span-full line-seperator">
+                <h2 class="hidden">Pricing Policy</h2>
+                <p id="price-policy"> ©2023 ZIMA Inc. All Rights Reserved. Privacy Policy </p>
+            </div>
         </div>
     </footer>
+
     <script src="./js/script.js"></script>
 </body>
+
 </html>
