@@ -1,0 +1,113 @@
+
+/* Basic Resets */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+}
+.hidden{
+    display: none;
+}
+/* Header */
+header {
+    display: grid;
+    padding: 20px;
+    background-color: #6c6c6c;
+}
+
+
+
+nav li {
+    display: inline-block; 
+    margin-right: 20px;   
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.secondary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    margin-top: 10px;
+    background-color: #a1a1a1;
+}
+.secondary-header li {
+    display: inline-block;
+    margin-right: 20px;  
+}
+
+.secondary-header li a{
+    text-decoration: none;
+}
+.search-bar input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar{
+    padding-right: 50px;
+}
+/* Main Content */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.promo-video video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.brief-info, .student-portfolio, .general-info, .specific-student-work {
+    margin-bottom: 40px;
+}
+
+.large-box {
+    grid-row: span 4;
+
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secondary-footer {
+    background-color: #a1a1a1;
+ padding: 20px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .logo, nav {
+        text-align: center;
+    }
+
+    nav ul {
+        grid-column: 1 / -1;
+        justify-content: center;
+    }
+}
