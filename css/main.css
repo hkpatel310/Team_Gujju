@@ -13,7 +13,7 @@ body, h1, h2, h3, p, ul, li {
 header {
     display: grid;
     padding: 20px;
-    background-color: #6c6c6c;
+    background-color: #ffffff;
 }
 
 
@@ -31,9 +31,10 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 70px;
+    padding: 20px;
+    padding-left: 150px;
     margin-top: 10px;
-    background-color: #a1a1a1;
+    background-color: #ff0000;
 }
 .secondary-header li {
     display: inline-block;
@@ -57,6 +58,12 @@ main {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+.main-h1{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid red;
 }
 
 h1 {
