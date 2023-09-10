@@ -13,7 +13,9 @@ body, h1, h2, h3, p, ul, li {
 header {
     display: grid;
     padding: 20px;
+
     background-color: #6c6c6c;
+
 }
 
 
@@ -31,9 +33,12 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 70px;
+
+    padding: 20px;
+    padding-left: 150px;
     margin-top: 10px;
-    background-color: #a1a1a1;
+    background-color: #ff0000;
+
 }
 .secondary-header li {
     display: inline-block;
@@ -59,8 +64,16 @@ main {
     margin: 0 auto;
 }
 
+.main-h1{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid red;
+}
+
 h1 {
-    text-align: center;
+    /* text-align: center; */
+
     margin-bottom: 40px;
 }
 
@@ -71,12 +84,55 @@ h1 {
     margin: 0 auto;
 }
 
+
+.brief-info, .about-program, .student-portfolio, .specific-student-work {
+    margin-bottom: 40px;
+}
+
+/* .large-box {
+    grid-row: span 4;
+} */
+.brief-info h2{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
+.about-program-h2{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
+.student-portfolio h2{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
+.program-info p{
+margin-bottom: 20px;
+}
+.program-info p:first-child{
+    margin-top: 40px;
+}
+
+.about-program p{
+    padding-bottom: 30px;
+}
+
+.student-work{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.student-work-h2{
+    padding-bottom: 6px;
+    border-bottom: 5px solid red;
+
 .brief-info, .student-portfolio, .general-info, .specific-student-work {
     margin-bottom: 40px;
 }
 
 .large-box {
     grid-row: span 4;
+
 
 }
 /* Footer */
