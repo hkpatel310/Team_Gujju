@@ -30,8 +30,8 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 150px;
+    padding: 15px;
+
     margin-top: 10px;
     background-color: #ff0000;
 }
@@ -49,8 +49,10 @@ nav ul li a{
     border-radius: 4px;
 }
 
-.search-bar{
-    padding-right: 50px;
+
+
+.secondary {
+    background-color: #ff0000;
 }
 /* Main Content */
 main {
@@ -118,9 +120,14 @@ margin-bottom: 20px;
     padding-bottom: 6px;
     border-bottom: 5px solid red;
 }
+.work-experience h3{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #ffffff;
     color: #fff;
     padding: 20px 0;
 }
@@ -131,20 +138,147 @@ footer {
 }
 
 .secondary-footer {
-    background-color: #a1a1a1;
+    background-color: #ff0000;
  padding: 20px 0;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    header {
-        grid-template-columns: 1fr;
+
+.media img { 
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-nav button {
+    width:20px;
+    height:20px;
+    background: url(../image/burger.svg) no-repeat center;
+    margin-top:15px;
+    margin-bottom:20px;
+    transition:all .5s ease;
+    border:0;
+    margin-left: 275px;
+}
+
+#main-nav button.expanded {
+    transform:rotate(90deg);
+}
+
+#burger-con {
+    margin-top:20px;
+    margin-bottom: 20px;
+    display:none;
+}
+
+#burger-con.slide-toggle {
+    display:block;
+}
+
+#main-nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#main-nav ul li a {
+    display:block;
+    padding:10px 0 10px 0;
+    text-align:center;
+    
+}
+
+#main-nav ul li a:hover {
+    color:#9a2018;
+}
+
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+    border-top:1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom:10px;
+}
+@media screen and (min-width: 768px) {
+
+
+    #logo {
+        margin-top:32px;
+        order:-1;
     }
 
-    .logo, nav {
-        text-align: center;
+    #button {
+        display:none;
     }
 
-    nav ul {
-        grid-column: 1 / -1;
-        justify-content: center;}}
+    #burger-con {
+        display:block;
+        font-size:12px;
+    }
+
+    #burger-con ul li, #burger-con ul li:first-child {
+        border: none;
+        display:inline;
+    }
+
+    #main-nav ul li a {
+        display:inline;
+    }
+
+    #main-nav ul li {
+        margin-right:10px;
+    }
+
+    #main-nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+    #main-nav {
+        padding-left:30px;
+        margin-top:4%;
+        margin-bottom:4%;
+    }
+
+ 
+
+
+
+}
+
+/* 11. ---Desktop Sized Screens--- */
+@media screen and (min-width: 1200px) {
+    #main-header {
+        height:110px;
+    }
+
+    #main-nav {
+        margin-top:2%;
+        margin-bottom:2%;
+        margin-left:25px;
+    }
+
+    #burger-con ul li {
+        margin-right:25px;
+    }
+
+    #burger-con {
+        font-size:16px;
+        margin-top:28px;
+    }
+
+
+}
