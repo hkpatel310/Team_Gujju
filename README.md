@@ -1,10 +1,6 @@
 # Team_Gujju
 ![Hero-img](https://github.com/hkpatel310/Team_Gujju/assets/121983623/9a0e26a0-a191-432d-87cc-2e90b6a82825)
-## Hello and good day everyone, below we have stated name of our team members.
-### Member 1: Harsh Chuadhary and student ID is 1107979
-### Member 2: Hit Patel and student ID is 1082408
-### Member 3: Vasishth Chaudhari and student ID is 1126647
-### Member 4: Harsh Patel and Student ID is 
+## Hello and good day everyone,here we have little-bit introduction of new comers and professional folks.
 
 # Welcome to the Interactive Media Design Program
 #### Welcome to our Interactive Media Design Program, where innovation meets creativity, and digital experiences come to life. Whether you're a seasoned professional looking to enhance your skills or a newcomer eager to explore the world of interactive media, our program offers a dynamic learning journey tailored just for you.
@@ -22,6 +18,12 @@
 
 # Explore Our Website
 ### Visit our website to learn more about our program, faculty, admission requirements, and the incredible opportunities that await you in the world of interactive media design. We look forward to welcoming you and helping you embark on an exciting and rewarding path in this dynamic field.
+
+## Here, below we have stated name of our team members.
+### Member 1: Harsh Chuadhary and student ID is 1107979
+### Member 2: Hit Patel and student ID is 1082408
+### Member 3: Vasishth Chaudhari and student ID is 1126647
+### Member 4: Harsh Patel and Student ID is 
 
 ## Visit Our Website
 
