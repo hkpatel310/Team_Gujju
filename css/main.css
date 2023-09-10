@@ -24,8 +24,12 @@ nav li {
 
 nav ul li a{
     text-decoration: none;
+    color: black;
 }
-
+nav ul li a:hover {
+    color: #ff0000;
+    transform: scale(1.5);
+}
 .secondary-header {
     display: flex;
     justify-content: space-between;
@@ -42,6 +46,11 @@ nav ul li a{
 
 .secondary-header li a{
     text-decoration: none;
+    color: #fff;
+}
+.secondary-header li a:hover {
+    color: #f5bebe;
+    
 }
 .search-bar input[type="search"] {
     padding: 10px;
