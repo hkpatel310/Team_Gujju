@@ -23,7 +23,7 @@
 ### Member 1: Harsh Chuadhary (1107979)
 ### Member 2: Hit Patel (1082408)
 ### Member 3: Vasishth Chaudhari (1126647)
-### Member 4: Harsh Patel () 
+### Member 4: Harsh Patel (1107613) 
 
 ## [Visit Our Website](https://www.fanshawec.ca/programs/idp3-interactive-media-design/next)
 
