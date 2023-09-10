@@ -4,6 +4,9 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
     list-style-type: none;
     font-family: Arial, sans-serif;
+    font-family: 'Borel', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 .hidden{
     display: none;
@@ -24,6 +27,7 @@ nav li {
 
 nav ul li a{
     text-decoration: none;
+    color: black;
 }
 
 .secondary-header {
@@ -42,6 +46,10 @@ nav ul li a{
 
 .secondary-header li a{
     text-decoration: none;
+    color: white;
+}
+.secondary-header li a:hover{
+    color: #e0dddd;
 }
 .search-bar input[type="search"] {
     padding: 10px;
@@ -95,6 +103,7 @@ h1 {
     padding-bottom: 6px;
     padding-top: 20px;
     border-bottom: 5px solid red;
+    margin-bottom: 20px;
 }
 .student-portfolio h2{
     padding-bottom: 6px;
@@ -124,6 +133,7 @@ margin-bottom: 20px;
     padding-bottom: 6px;
     padding-top: 20px;
     border-bottom: 5px solid red;
+    margin-bottom: 20px;
 }
 /* Footer */
 footer {
