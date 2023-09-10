@@ -20,11 +20,11 @@
 ### Visit our website to learn more about our program, faculty, admission requirements, and the incredible opportunities that await you in the world of interactive media design. We look forward to welcoming you and helping you embark on an exciting and rewarding path in this dynamic field.
 
 ## Here, below we have stated name of our team members.
-### Member 1: Harsh Chuadhary and student ID is 1107979
-### Member 2: Hit Patel and student ID is 1082408
-### Member 3: Vasishth Chaudhari and student ID is 1126647
-### Member 4: Harsh Patel and Student ID is 
+### Member 1: Harsh Chuadhary (1107979)
+### Member 2: Hit Patel (1082408)
+### Member 3: Vasishth Chaudhari (1126647)
+### Member 4: Harsh Patel () 
 
-## Visit Our Website
+## [Visit Our Website](https://www.fanshawec.ca/programs/idp3-interactive-media-design/next)
 
 
