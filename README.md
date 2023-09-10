@@ -1,6 +1,6 @@
 # Team_Gujju
 ![Hero-img](https://github.com/hkpatel310/Team_Gujju/assets/121983623/9a0e26a0-a191-432d-87cc-2e90b6a82825)
-## Hello and good day everyone,here we have little-bit introduction of new comers and professional folks.
+## Hello and good day everyone,here we have little-bit introduction of interactrive media design for new comers and professional folks.
 
 # Welcome to the Interactive Media Design Program
 #### Welcome to our Interactive Media Design Program, where innovation meets creativity, and digital experiences come to life. Whether you're a seasoned professional looking to enhance your skills or a newcomer eager to explore the world of interactive media, our program offers a dynamic learning journey tailored just for you.
