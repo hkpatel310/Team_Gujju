@@ -91,6 +91,9 @@ img, embed, object, video, picture {
    .desktop {
      display: none;
    }
+   .manu {
+    display: none;
+   }
   
   /* ---Tablet Library Grid Styles--- */
   
@@ -159,7 +162,9 @@ img, embed, object, video, picture {
       .desktop {
         display: none;
       }
-  
+    .manu {
+      display: block;
+    } 
   }
   
   /* ---Desktop Library Grid Styles--- */
@@ -229,7 +234,9 @@ img, embed, object, video, picture {
       .desktop {
         display: block;
       }
-    
+      .manu {
+        display: block;
+      } 
   }
   
   /* ---X-Large Desktop Library Grid Styles--- */
@@ -299,5 +306,7 @@ img, embed, object, video, picture {
       .desktop {
         display: block;
       }
-    
+      .manu {
+        display: block;
+      } 
   }
