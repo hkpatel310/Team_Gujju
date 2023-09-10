@@ -13,7 +13,9 @@ body, h1, h2, h3, p, ul, li {
 header {
     display: grid;
     padding: 20px;
-    background-color: #ffffff;
+
+    background-color: #6c6c6c;
+
 }
 
 
@@ -31,10 +33,12 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 20px;
     padding-left: 150px;
     margin-top: 10px;
     background-color: #ff0000;
+
 }
 .secondary-header li {
     display: inline-block;
@@ -59,6 +63,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .main-h1{
     padding-bottom: 6px;
     margin-bottom: 10px;
@@ -68,6 +73,7 @@ main {
 
 h1 {
     /* text-align: center; */
+
     margin-bottom: 40px;
 }
 
@@ -77,6 +83,7 @@ h1 {
     display: block;
     margin: 0 auto;
 }
+
 
 .brief-info, .about-program, .student-portfolio, .specific-student-work {
     margin-bottom: 40px;
@@ -118,6 +125,15 @@ margin-bottom: 20px;
 .student-work-h2{
     padding-bottom: 6px;
     border-bottom: 5px solid red;
+
+.brief-info, .student-portfolio, .general-info, .specific-student-work {
+    margin-bottom: 40px;
+}
+
+.large-box {
+    grid-row: span 4;
+
+
 }
 /* Footer */
 footer {
