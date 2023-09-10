@@ -78,16 +78,26 @@ h1 {
     margin: 0 auto;
 }
 
-.brief-info, .student-portfolio, .general-info, .specific-student-work {
+.brief-info, .about-program, .student-portfolio, .specific-student-work {
     margin-bottom: 40px;
 }
 
-.large-box {
+/* .large-box {
     grid-row: span 4;
-
-}
+} */
 .brief-info h2{
     padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
+.about-program-h2{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
+.student-portfolio h2{
+    padding-bottom: 6px;
+    padding-top: 20px;
     border-bottom: 5px solid red;
 }
 .program-info p{
@@ -95,6 +105,19 @@ margin-bottom: 20px;
 }
 .program-info p:first-child{
     margin-top: 40px;
+}
+
+.about-program p{
+    padding-bottom: 30px;
+}
+
+.student-work{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.student-work-h2{
+    padding-bottom: 6px;
+    border-bottom: 5px solid red;
 }
 /* Footer */
 footer {
