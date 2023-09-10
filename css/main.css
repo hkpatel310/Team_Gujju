@@ -3,7 +3,8 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Gantari', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 .hidden{
     display: none;
@@ -95,6 +96,7 @@ h1 {
 /* .large-box {
     grid-row: span 4;
 } */
+
 .brief-info h2{
     padding-bottom: 6px;
     padding-top: 20px;
@@ -149,6 +151,7 @@ footer {
 .secondary-footer {
     background-color: #ff0000;
  padding: 20px 0;
+ color: #fff;
 }
 
 
@@ -156,6 +159,7 @@ footer {
     height: 50px;
     width: 50px;
 }
+
 
 
 
@@ -290,4 +294,40 @@ footer {
     }
 
 
+}
+.slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slide-track {
+    display: flex;
+    animation: slideAnimation 10s infinite;
+    width: calc(100% * 5); 
+}
+
+.slide {
+    width: 100%;
+    transition: 0.6s ease;
+}
+
+.slide img {
+    height: 300px;
+    width: 300px;
+}
+
+@keyframes slideAnimation {
+    0%   { transform: translateX(0%); }
+    5%   { transform: translateX(-5%); }
+    10%  { transform: translateX(-10%); }
+    15%  { transform: translateX(-15%); }
+    20%  { transform: translateX(-20%); }
+    /* ... keep going until ... */
+    95%  { transform: translateX(-95%); }
+    100% { transform: translateX(-100%); }
+}
+
+.industry {
+    color: #fff;
 }

@@ -7,6 +7,9 @@
     <title>Interactive Media Design</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@1,500&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -37,9 +40,7 @@
                 <li><a href="#">Apply to fanshawe</a></li>
                 <li><a href="#">Events</a></li>
             </ul>
-            <div class="search-bar ">
-                <input type="search" placeholder="Search...">
-            </div>
+            
         </div>
     </div>
   
@@ -47,23 +48,27 @@
     <!-- Main Content -->
     <main>
         <h1 class="main-h1">Interactive Media Design</h1>
+        <br>
+        <br>
         <section class="promo-video">
             <video controls>
-                <source src="promo.mp4" type="video/mp4">
+                <source src="./image/bootcamp-video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </section>
-        <section class="brief-info">
-            <h2>industry Night</h2>
-            <h3> <b>Address : </b> 130 Dundas St, London, ON N6A 1G2</h3>
-            <h3><b>Time</b> 6:00 PM EST+</h3>
+        <section class="brief-info box ">
+            <h2 class="industry">Introducing Industry Night</h2>
+            <h3 class="industry"> <b>Address : </b> 130 Dundas St, London, ON N6A 1G2</h3>
+            <h3 class="industry"><b>Time</b> 6:00 PM EST+</h3>
 
-            <p>Discover the Future of Interactive Media at Industry Night</p>
-            <p>Are you ready to witness the Future of interactive media firsthend? join us for an unfortgetable evening at our highly-anticipated "Industry Night" event!</p>
+            <p class="industry">Discover the Future of Interactive Media at Industry Night</p>
+            <p class="industry">Are you ready to witness the Future of interactive media firsthend? join us for an unfortgetable evening at our highly-anticipated "Industry Night" event!</p>
         </section>
 
         <section class="brief-info">
             <h2>Program and Course delivery</h2>
+            <br>
+        <br>
             <div class="program-info">
                 <p class="">This program is offered in Fanshawe's hybrid delivery format with some courses available in
                     Fanshawe's flexible delivery format. Some
@@ -83,6 +88,8 @@
             </div>
         </section>
         <h2 class="about-program-h2">About Program</h2>
+        <br>
+        <br>
         <section class="about-program grid-con">
          
             <div class=" col-span-4 m-col-span-12 l-col-span-12">
@@ -112,6 +119,8 @@
 
         <section class="student-portfolio ">
             <h2>Student Portfolio</h2>
+            <br>
+        <br>
             <div>
                 <p class="  col-span-4 m-col-span-12 l-col-span-12">"Explore our Student Portfolio to witness the creativity and innovation
                     nurtured here. Each project
@@ -122,21 +131,47 @@
         </section>
         <section class="grid-con">
             <div class="l-col-start-4 l-col-end-9  m-col-start-4 m-col-end-9 ">
-                <p>hellooo</p>
+                <!-- <a href="#"><img src="image/portfolio-1.jpg" alt="Portfolio"></a> -->
+                <div class="slider">
+                    <div class="slide-track">
+                        <!-- Repeat this div for each of your 20 images -->
+                        <div class="slide">
+                            <img src="./image/portfolio-1.jpg" alt="">
+                        </div>
+                        <!-- ... -->
+                        <div class="slide">
+                            <img src="./image/portfolio-2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/portfolio-3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/portfolio-4.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/portfolio-5.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/portfolio-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <h2 class="student-work-h2">Student Work Experience and services</h2>
         <section class="specific-student-work grid-con">
             <div class="student-work  col-span-2 m-col-span-6 l-col-span-6 "><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi-Y2BA3ovqCmKRy3k_N0GitQitzeN8CxVMw&usqp=CAU"
+                    src="image/work-experience-1.jpg"
                     alt=""></div>
             <div class="student-work  col-span-2 m-col-span-6 l-col-span-6"><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4TbqkFE0x4VEHELtpf1ZJEcl2B8A9zT1Nw&usqp=CAU"
+                    src="./image/work-experience-2.jpg"
                     alt=""></div>
         </section>
 
         <section class="work-experience">
             <h3>Work Experience</h3>
+            <br>
+        <br>
             <div class="">
                 <p>Internships</p>
                 <p>Each student will complete a 120-hour field placement/internship as a 
@@ -153,21 +188,24 @@
     <section class="secondary-footer ">
         <div class="grid-con">
             <div class="l-col-span-4 m-col-span-4">
-                <h3>Apply to seneca</h3>
+                <h3>Apply to Fanshawe</h3>
+                <br>
                 <p>Canadian Applicants</p>
                 <p>International Applicants</p>
                 <p>Part-time Studies Applicants</p>
             </div>
             <div class="l-col-span-4 m-col-span-4">
-                <h3>About seneca</h3>
+                <h3>About Fanshawe</h3>
+                <br>
                 <p>Corporate Training</p>
-                <p>Careers at Seneca </p>
+                <p>Careers at Fanshawe </p>
                 <p>Program Advisory Committees Media</p>
             </div>
             <div class="l-col-span-4 m-col-span-4">
-                <h3>About seneca</h3>
+                <h3>About Fanshawe</h3>
+                <br>
                 <p>Corporate Training</p>
-                <p>Careers at Seneca </p>
+                <p>Careers at Fanshawe </p>
                 <p>Program Advisory Committees Media</p>
             </div>
         </div>
@@ -188,11 +226,7 @@
             </div>
 
         </div>
-        <div class="grid-con">
-            <div id="footer-privacy" class="col-span-full m-col-span-full ">
-                
-                <p id="price-policy"> ©2023 ZIMA Inc. All Rights Reserved. Privacy Policy </p>
-            </div>
+        
         </div>
     </footer>
 
