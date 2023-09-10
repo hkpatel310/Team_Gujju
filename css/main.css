@@ -30,8 +30,8 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 150px;
+    padding: 15px;
+
     margin-top: 10px;
     background-color: #ff0000;
 }
@@ -49,8 +49,10 @@ nav ul li a{
     border-radius: 4px;
 }
 
-.search-bar{
-    padding-right: 50px;
+
+
+.secondary {
+    background-color: #ff0000;
 }
 /* Main Content */
 main {
@@ -118,9 +120,14 @@ margin-bottom: 20px;
     padding-bottom: 6px;
     border-bottom: 5px solid red;
 }
+.work-experience h3{
+    padding-bottom: 6px;
+    padding-top: 20px;
+    border-bottom: 5px solid red;
+}
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #ffffff;
     color: #fff;
     padding: 20px 0;
 }
@@ -131,22 +138,12 @@ footer {
 }
 
 .secondary-footer {
-    background-color: #a1a1a1;
+    background-color: #ff0000;
  padding: 20px 0;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    header {
-        grid-template-columns: 1fr;
-    }
 
-    .logo, nav {
-        text-align: center;
-    }
-
-    nav ul {
-        grid-column: 1 / -1;
-        justify-content: center;
-    }
+.media img { 
+    height: 50px;
+    width: 50px;
 }
