@@ -2,12 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Interactive Media Design</title>
-    <link rel="stylesheet" href="./css/grid.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 class="hidden">Patel harsh Patel Hit</h1>
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+        <div class="grid-con"  >
+            <img  class="col-span-3 m-col-start-1 m-col-end-4" src="./image/Patel_harsh_Logo_color.svg" alt="logo">
+        </div>
+        <nav id="main-nav" class="col-span-1 m-col-start-4 m-col-end-13">
+            <h2 class="hidden"> main navigation bar</h2>
+            <button id="button"></button>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+        <h1 class="hidden">Patel harsh & Patel hit</h1>
+    </div>
+        
+        <div id="hero" class="full-width-grid-con">
+     
+               
+                    <section id="hero-heading-box" class="col-span-4 m-col-start-2 m-col-end-8 l-col-start-2 l-col-end-7">
+                        <h2 class="hero-img-h2">
+                            <span>Get in touch with US</span>
+                        </h2>
+                    </section>
+               
+        </div>
+        <section class="grid-con">
+            <div id="hero-summary" class="col-span-full m-col-start-2 m-col-end-12 ">
+                <h2 class="hidden">Summary of our facilities</h2>
+                <p>We value your feedback and inquiries. Please don't hesitate to contact us through the provided channels. Our dedicated team is here to assist you promptly and ensure your experience with us is exceptional. Let's connect and make a difference together.</p>
+
+                
+            </div>
+        </section>
+        <section id="contact" class="grid-con">
+            <h2 class="hidden">Contact Information</h2>
+            <div class="col-span-full m-col-start-4 m-col-end-7">
+                <h3 class="hidden">Phone, Fax and Email</h3>
+                <i class="fas fa-mobile-alt"></i>
+                <p id="hero-numbers"> <br>
+                Toll Free:+<a href="tel:18772011156">1 877 201-1156</a> <br>
+                FAX:+1 613 638 2217 <br>
+                EMAIL: xyz@gmail.com <br>
+                ADDRESS:  857 Adelaide St N, London, Ontario
+                </p>
+            </div>
+           
+        </section>
+
+<div >
+    <form class="grid-con contact-form ">
+        <label class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " for="first-name">First Name:</label>
+        <input class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " type="text" id="first-name" name="first-name" required>
+        <label class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " for="last-name">Last Name:</label>
+        <input class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " type="text" id="last-name" name="last-name" required>
+        <label class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " for="email">Email:</label>
+        <input class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " type="email" id="email" name="email" required>
+        <label class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " for="phone">Phone Number:</label>
+        <input class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " type="tel" id="phone" name="phone" required>
+        <label class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " for="feedback">Feedback:</label>
+        <textarea class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10 " id="feedback" name="feedback" rows="5" required></textarea>
+        <input class="col-start-2 col-end-4 m-col-start-6 m-col-end-8 l-col-start-6 l-col-end-8 submit" type="submit" value="Submit">
+      </form>
     
+</div>
+<footer id="footer-hero">
+    <div class="grid-con">
+        <div class="grid-con" >
+            <img  class="col-span-3 m-col-span-4 l-col-span-4" src="./image/Patel_harsh_Logo_color.svg" alt="logo">
+        </div>
+        <div id="footer-nav" class="col-span-full m-col-span-6 l-col-span-6">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+            </ul>
+        </div>
+        <div class="col-span-4 m-col-span-22 l-col-span-2 media">
+            <img src="image/facebook.ico" alt="facebook">
+            <img src="image/instagram.png" alt="instagram">
+            <img src="image/linkedin.png" alt="linkedin">
+            </div>
+  
+    </div>
+    <div class="grid-con">
+        <div id="footer-privacy" class="col-span-full m-col-start-2 m-col-end-12 line-seperator">
+            <h2 class="hidden">Pricing Policy</h2>
+            <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2023 ZIMA Inc. All Rights Reserved. Privacy Policy </p>
+        </div>
+    </div>
+</footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
