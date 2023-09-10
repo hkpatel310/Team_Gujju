@@ -15,17 +15,6 @@ header {
     padding: 20px;
     background-color: #f5f5f5;
 }
-
-<<<<<<< Updated upstream
-.logo {
-    grid-column: 1 / span 3;
-=======
-nav li {
-    display: inline-block; 
-    margin-right: 20px;   
->>>>>>> Stashed changes
-}
-
 nav ul {
     display: flex;
     gap: 16px;
@@ -38,15 +27,7 @@ nav ul {
     align-items: center;
     grid-column: 1 / -1;
     margin-top: 10px;
-<<<<<<< Updated upstream
-=======
-    background-color: #a1a1a1;
-    width:1200px;
-}
-.secondary-header li {
-    display: inline-block;
-    margin-right: 20px;  
->>>>>>> Stashed changes
+
 }
 
 .search-bar input[type="search"] {
@@ -90,37 +71,6 @@ footer {
     margin-bottom: 20px;
 }
 
-<<<<<<< Updated upstream
-=======
-.secondary-footer {
-    background-color: #a1a1a1;
- padding: 20px 0;
-}
-
-.secondary-footer p{
-padding-bottom: 10px;
-}
-.secondary-footer p:first-of-type {
-    padding-top: 20px; /* Adjust the value as needed */
-}
-
-
->>>>>>> Stashed changes
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    header {
-        grid-template-columns: 1fr;
-    }
-
-    .logo, nav {
-        text-align: center;
-    }
-
-    nav ul {
-        grid-column: 1 / -1;
-        justify-content: center;
-    }
-}
 #contact {
     line-height:22px;
     height:214px;
